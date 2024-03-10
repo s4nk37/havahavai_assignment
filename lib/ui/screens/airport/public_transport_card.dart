@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:havahavai_assignment/ui/common/custom_card.dart';
 
 import '../../../generated/assets.dart';
 import '../../../utils/constants/app_colors.dart';
 import '../../../utils/constants/app_strings.dart';
+import '../../common/custom_card.dart';
 
 class PublicTransportCard extends StatelessWidget {
   const PublicTransportCard({super.key});

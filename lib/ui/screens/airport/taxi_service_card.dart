@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:havahavai_assignment/ui/screens/airport/price_card.dart';
 
 import '../../../generated/assets.dart';
 import '../../../utils/constants/app_colors.dart';
 import '../../../utils/constants/app_layout.dart';
 import '../../../utils/constants/app_strings.dart';
 import '../../common/custom_card.dart';
+import 'price_card.dart';
 
 class TaxiServiceCard extends StatelessWidget {
   const TaxiServiceCard({super.key});
@@ -16,26 +16,27 @@ class TaxiServiceCard extends StatelessWidget {
       title: AppStrings.taxiService,
       child: GridView(
         shrinkWrap: true,
+        physics: const NeverScrollableScrollPhysics(),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
           childAspectRatio: 4 / 3,
         ),
-        children: [
-          const TaxiServiceItem(
+        children: const [
+          TaxiServiceItem(
             imagePath: Assets.imagesUber,
             price: 4,
           ),
-          const TaxiServiceItem(
+          TaxiServiceItem(
             imagePath: Assets.imagesCareem,
             price: 4,
           ),
-          const TaxiServiceItem(
+          TaxiServiceItem(
             imagePath: Assets.imagesYango,
             price: 3,
           ),
-          const TaxiServiceItem(
+          TaxiServiceItem(
             imagePath: Assets.imagesBlacklane,
             price: 5,
             isLuxury: true,
