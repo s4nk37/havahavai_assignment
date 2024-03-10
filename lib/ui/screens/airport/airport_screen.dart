@@ -18,7 +18,7 @@ class AirportScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
-        padding: const EdgeInsets.only(top: 27, bottom: 0),
+        padding: const EdgeInsets.only(top: 37, bottom: 0),
         children: [
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -96,9 +96,10 @@ class AirportScreen extends StatelessWidget {
             height: 20,
           ),
 
+          /// Buttons
           Container(
             padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 20),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 CustomButton(

@@ -4,6 +4,7 @@ class Assets {
 
   static const String fontsUberMoveBold = 'assets/fonts/UberMoveBold.otf';
   static const String fontsUberMoveMedium = 'assets/fonts/UberMoveMedium.otf';
+  static const String iconsAdd = 'assets/icons/add.svg';
   static const String iconsBus = 'assets/icons/bus.svg';
   static const String iconsCalender = 'assets/icons/calender.svg';
   static const String iconsCar = 'assets/icons/car.svg';
@@ -13,10 +14,16 @@ class Assets {
   static const String iconsElectricCar = 'assets/icons/electric_car.svg';
   static const String iconsIndigo = 'assets/icons/indigo.svg';
   static const String iconsMetro = 'assets/icons/metro.svg';
+  static const String iconsMore = 'assets/icons/more.svg';
+  static const String iconsPerson = 'assets/icons/person.svg';
+  static const String iconsPersons = 'assets/icons/persons.svg';
   static const String iconsRightArrow = 'assets/icons/right_arrow.svg';
+  static const String iconsSearch = 'assets/icons/search.svg';
   static const String iconsTime = 'assets/icons/time.svg';
   static const String iconsTwoWheeler = 'assets/icons/two_wheeler.svg';
   static const String iconsUpArrow = 'assets/icons/up_arrow.svg';
+  static const String iconsWhatsApp = 'assets/icons/WhatsApp.svg';
+  static const String imagesBigMap = 'assets/images/bigMap.jpg';
   static const String imagesBlacklane = 'assets/images/blacklane.png';
   static const String imagesCareem = 'assets/images/careem.png';
   static const String imagesCityscape = 'assets/images/cityscape.jpg';
